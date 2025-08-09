@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimingSolutionsServer", "TimingSolutionsServer\TimingSolutionsServer.csproj", "{1CB25EC1-21AF-465F-807C-5F2A854E8FFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimingSolutionsClient", "TimingSolutionsClient\TimingSolutionsClient.csproj", "{7DCBEA23-97FA-30E6-2B0E-338F0118E289}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CB25EC1-21AF-465F-807C-5F2A854E8FFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CB25EC1-21AF-465F-807C-5F2A854E8FFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CB25EC1-21AF-465F-807C-5F2A854E8FFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CB25EC1-21AF-465F-807C-5F2A854E8FFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DCBEA23-97FA-30E6-2B0E-338F0118E289}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DCBEA23-97FA-30E6-2B0E-338F0118E289}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DCBEA23-97FA-30E6-2B0E-338F0118E289}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DCBEA23-97FA-30E6-2B0E-338F0118E289}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4872314C-1B0C-4C70-9E95-9F750C3BD139}
+	EndGlobalSection
+EndGlobal
