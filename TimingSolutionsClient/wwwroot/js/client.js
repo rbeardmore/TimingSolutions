@@ -2,8 +2,7 @@
 const button = document.querySelector("button");
 const output = document.querySelector("#output");
 const textarea = document.querySelector("textarea");
-const wsUri = "ws://127.0.0.1/session/
-";
+const wsUri = "ws://127.0.0.1:8080/";
 const websocket = new WebSocket(wsUri);
 
 button.addEventListener("click", onClickButton);

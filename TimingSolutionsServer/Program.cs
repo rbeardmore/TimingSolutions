@@ -10,7 +10,7 @@ namespace TimingSolutionsServer
         public static void Main()
         {
             string ip = "127.0.0.1";
-            int port = 80;
+            int port = 8080;
             var server = new TcpListener(IPAddress.Parse(ip), port);
 
             server.Start();
@@ -52,6 +52,7 @@ namespace TimingSolutionsServer
                         "Sec-WebSocket-Accept: " + swkAndSaltSha1Base64 + "\r\n\r\n");
 
                     stream.Write(response, 0, response.Length);
+                    Console.WriteLine("Response received: " + response.Length.ToString() + " Bytes");
                 }
                 else
                 {
